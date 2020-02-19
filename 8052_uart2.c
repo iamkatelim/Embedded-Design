@@ -144,7 +144,7 @@ void Online(void)
 	SendString("AT+CIPSEND  \r\n");
 	wait_response(4);
 	Delay_Xms(100);
-	SendString("GET https://api.thingspeak.com/update?api_key=2A3T6MDHMI7AYUTN&field1=100 \r\n");
+	SendString("GET https://api.thingspeak.com/update?api_key=xxxxxxxxxxxxxx&field1=100 \r\n");
 	SendByte(0x1A);
 	wait_response(5);
 	start_gsm=0;
