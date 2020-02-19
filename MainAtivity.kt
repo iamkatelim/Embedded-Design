@@ -29,7 +29,7 @@ class MainActivity:AppCompatActivity() {
     private fun fetchData() {
         println("OHHHHHHHHH")
 
-        val url = "https://api.thingspeak.com/channels/895784/feeds/last.json?api_key=PZNHSF28IWAHJ4Z7"
+        val url = "https://api.thingspeak.com/channels/895784/feeds/last.json?api_key=xxxxxxxxxxxxx"
 
         val request = Request.Builder().url(url).build()
 
